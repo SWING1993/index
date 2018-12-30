@@ -217,6 +217,7 @@ body.dragging .nav-pointer {
 /* ----------------------
   parallax-window
 ------------------------*/
+/*
 .parallax-window {
     min-height: 200px;
     background: transparent;
@@ -226,6 +227,7 @@ body.dragging .nav-pointer {
     min-height: 100px;
     background: transparent;
 }
+*/
 
 /* ----------------------
   experience (company)

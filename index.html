@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8"/>
     <title>Hello World!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- bootstrap 4.0.0-beta.2 -->
@@ -11,7 +12,7 @@
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <!-- Global Site Tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107490980-1"></script>
+    <!--<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107490980-1"></script>-->
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments)};
@@ -30,16 +31,16 @@
 </header>
 <div class='site-container'>
     <!-- select style button -->
-    <div class="btn-group" id="changestyle">
-        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <span id="selstyle">Style Default</span>
-        </button>
-        <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#" data-val="default">Style Default</a></li>
-            <li><a class="dropdown-item" href="#" data-val="space">Style Space</a></li>
-            <li><a class="dropdown-item" href="#" data-val="snow">Style Snow</a></li>
-        </ul>
-    </div>
+    <!--<div class="btn-group" id="changestyle">-->
+        <!--<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+            <!--<span id="selstyle">Style Default</span>-->
+        <!--</button>-->
+        <!--<ul class="dropdown-menu">-->
+            <!--<li><a class="dropdown-item" href="#" data-val="default">Style Default</a></li>-->
+            <!--<li><a class="dropdown-item" href="#" data-val="space">Style Space</a></li>-->
+            <!--<li><a class="dropdown-item" href="#" data-val="snow">Style Snow</a></li>-->
+        <!--</ul>-->
+    <!--</div>-->
     <section class='intro'>
         <div id='particles-js'></div>
         <div class='wrap'>
@@ -47,11 +48,11 @@
                 <div class="profile-card">
                     <header>
                         <!-- avatar -->
-                        <a><img src="img/hd.jpg" class="unselectable"></a>
+                        <a><img src="img/head.jpg" class="unselectable"></a>
                         <!-- name -->
-                        <h1 class="unselectable">Dalin Huang</h1>
+                        <h1 class="unselectable">宋国华</h1>
                         <!-- role -->
-                        <h2 class="unselectable">Full Stack Developer</h2>
+                        <h2 class="unselectable">iOS Developer</h2>
                     </header>
                     <div class="profile-bio">
                         <p class="unselectable">
@@ -82,7 +83,7 @@
             </div>
         </div>
     </section>
-    <div class="parallax-window" data-parallax="scroll" data-image-src="img/Ottawa_1920x1080.jpg"></div>
+    <!--<div class="parallax-window" data-parallax="scroll" data-image-src="img/Ottawa_1920x1080.jpg"></div>-->
     <section>
         <div class="about-me">
             <div class="text-center">
@@ -103,13 +104,13 @@ Amazon Linux version 2017.09 is available.
                 <div class="command">
                     <!-- email -->
                     <p>echo $email</p>
-                    <span class="hideme">email: dhuan023@gmail.com</span>
+                    <span class="hideme">email: songguohua10446627@gmail.com</span>
                     <!-- phone -->
                     <p>echo $phone</p>
-                    <span class="hideme">phone: (647)-927-XXXX</span>
+                    <span class="hideme">phone: 186-6790-55XX</span>
                     <!-- address -->
                     <p>echo $address</p>
-                    <span class="hideme">address: Ottawa, ON, Canada</span>
+                    <span class="hideme">address: HangZhou, ON, China</span>
                     <!-- education -->
                     <p>echo $education</p>
                     <span class="hideme">University of Ottawa • 2009 - 2014<br>
@@ -121,7 +122,7 @@ Amazon Linux version 2017.09 is available.
             </div>
         </div>
     </section>
-    <div class="parallax-window-half" data-parallax="scroll" data-image-src="img/test-oct.png"></div>
+    <!--<div class="parallax-window-half" data-parallax="scroll" data-image-src="img/test-oct.png"></div>-->
     <section class="flx-center">
         <div class="text-center">
 
@@ -225,7 +226,7 @@ Amazon Linux version 2017.09 is available.
             <div class="text-center h5">SHA-256 blockchain</div>
         </div>
     </section>
-    <div class="parallax-window" data-parallax="scroll" data-image-src="img/test-oct-6.png"></div>
+    <!--<div class="parallax-window" data-parallax="scroll" data-image-src="img/test-oct-6.png"></div>-->
     <!-- =================== script =================== -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
@@ -245,7 +246,14 @@ Amazon Linux version 2017.09 is available.
     <script>
         $(document).ready(function() {
 
-            styleDefault();
+            var i = Math.random()*10;
+            if (i <= 5) {
+                styleDefault();
+            } else if (i <= 8) {
+                styleSnow();
+            } else {
+                styleSpace();
+            }
 
             $('#changestyle .dropdown-menu a').click(function(){
                 var style = $(this).data('val');
@@ -413,5 +421,6 @@ Amazon Linux version 2017.09 is available.
             "Steve Jobs \n\n");
 
     </script>
+</div>
 </body>
 </html>
