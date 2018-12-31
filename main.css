@@ -303,20 +303,20 @@ body.dragging .nav-pointer {
 /* ----------------------
   social-links color
 ------------------------*/
-.fa-facebook {
+.fa-wordpress {
     color: #3b5998
 }
 
-.fa-stack-overflow {
-    color: #FF5722;
+.fa-weibo {
+    color: firebrick;
 }
 
 .fa-github-alt {
     color: black;
 }
 
-.fa-linkedin {
-    color: #007bb6;
+.fa-steam-square {
+    color: #222533;
 }
 
 /* ----------------------
