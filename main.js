@@ -337,6 +337,5 @@ function styleSnow(){
             }
         },
         "retina_detect": true
-
     });
 };

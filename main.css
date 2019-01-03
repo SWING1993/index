@@ -215,28 +215,8 @@ body.dragging .nav-pointer {
 }
 
 /* ----------------------
-  parallax-window
-------------------------*/
-/*
-.parallax-window {
-    min-height: 200px;
-    background: transparent;
-}
-
-.parallax-window-half {
-    min-height: 100px;
-    background: transparent;
-}
-*/
-
-/* ----------------------
   experience (company)
 ------------------------*/
-
-/*.push-to-bottom {
-  position: absolute;
-  bottom: 5%;
-}*/
 
 .flx-center {
     display: flex;
@@ -249,7 +229,7 @@ body.dragging .nav-pointer {
 }
 
 .one-block {
-    /*   width: 250px; */
+    /*width: 250px;*/
     font-family: "Maven Pro", sans-serif;
     border-style: dashed;
     padding: 10px 10px 0;
@@ -299,7 +279,6 @@ body.dragging .nav-pointer {
     padding: 5px 0 0;
 }
 
-
 /* ----------------------
   social-links color
 ------------------------*/
@@ -308,7 +287,7 @@ body.dragging .nav-pointer {
 }
 
 .fa-weibo {
-    color: firebrick;
+    color: #b22910;
 }
 
 .fa-github-alt {
@@ -361,21 +340,21 @@ body.dragging .nav-pointer {
     animation: init 0.5s 0.2s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, moveDown 1s 0.8s cubic-bezier(0.6, -0.28, 0.735, 0.045) forwards, moveUp 1s 1.8s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards, materia 0.5s 2.7s cubic-bezier(0.86, 0, 0.07, 1) forwards;
 }
 
-/*.profile-card header {
-  width: 160px;
-  height: 260px;
-  padding: 40px 20px 30px 20px;
-  display: inline-block;
-  float: left;
-  border-right: 2px dashed #EEEEEE;
-  background: white;
-  color: #000000;
-  margin-top: 50px;
-  opacity: 0;
-  text-align: center;
-  -webkit-animation: moveIn 1s 3.1s ease forwards;
-  animation: moveIn 1s 3.1s ease forwards;
-}*/
+/*.profile-card header {*/
+  /*width: 160px;*/
+  /*height: 260px;*/
+  /*padding: 40px 20px 30px 20px;*/
+  /*display: inline-block;*/
+  /*float: left;*/
+  /*border-right: 2px dashed #EEEEEE;*/
+  /*background: white;*/
+  /*color: #000000;*/
+  /*margin-top: 50px;*/
+  /*opacity: 0;*/
+  /*text-align: center;*/
+  /*-webkit-animation: moveIn 1s 3.1s ease forwards;*/
+  /*animation: moveIn 1s 3.1s ease forwards;*/
+/*}*/
 
 .profile-card header h1 {
     color: #FF5722;
@@ -707,17 +686,6 @@ body.dragging .nav-pointer {
     }
 }
 
-/*0% {*/
-/*top: 100%;*/
-/*width: 0px;*/
-/*padding-bottom: 0px;*/
-/*}*/
-/*100% {*/
-/*top: 50%;*/
-/*width: 100%;*/
-/*padding-bottom: 100%;*/
-/*}*/
-/*}*/
 @keyframes puff {
     0% {
         top: 100%;
