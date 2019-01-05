@@ -18,8 +18,53 @@ header {
     z-index: 999;
 }
 
-section {
+/*section {*/
+    /*!*height: 100vh;*!*/
+    /*display: -webkit-box;*/
+    /*display: -ms-flexbox;*/
+    /*display: flex;*/
+    /*-webkit-box-align: center;*/
+    /*-ms-flex-align: center;*/
+    /*align-items: center;*/
+    /*-webkit-transition: .5s ease;*/
+    /*transition: .5s ease;*/
+    /*box-sizing: border-box;*/
+    /*overflow: hidden;*/
+/*}*/
+
+#section-top {
     height: 100vh;
+    min-height: 667px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#section-center {
+    height: 100vh;
+    min-height: 1100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#section-bottom {
+    min-height: 100vh;
+    height: auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -207,6 +252,7 @@ body.dragging .nav-pointer {
     position: absolute;
     width: 100vw;
     height: 100vh;
+    min-height: 667px;
     background-color: rgb(35,39,65);
     /*background-image: url("");*/
     background-repeat: no-repeat;
@@ -229,7 +275,6 @@ body.dragging .nav-pointer {
 }
 
 .one-block {
-    /*width: 250px;*/
     font-family: "Maven Pro", sans-serif;
     border-style: dashed;
     padding: 10px 10px 0;
@@ -238,7 +283,7 @@ body.dragging .nav-pointer {
     margin: 5px 0;
     box-sizing: border-box;
     line-height: 1;
-    min-width: 500px;
+    min-width: 360px;
     max-width: 50%;
     text-align: left;
 }
