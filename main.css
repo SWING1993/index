@@ -199,9 +199,6 @@ body.dragging .nav-pointer {
 }
 
 .unselectable {
-    width: 90%;
-    max-width: 550px;
-    height: auto;
     -webkit-user-select: none; /* Safari */
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* IE10+/Edge */
@@ -211,6 +208,13 @@ body.dragging .nav-pointer {
 /* ----------------------
   Section about-me
 ------------------------*/
+
+#aboutme-img {
+    width: 90%;
+    max-width: 550px;
+    height: auto;
+}
+
 .about-me {
     background-color: black;
     padding: 25px;
