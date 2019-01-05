@@ -227,7 +227,7 @@ function styleSpace(){
 };
 
 function styleSnow(){
-    $('#particles-js').css("background-color", "rgb(100,149,237)");
+    $('#particles-js').css("background-color", "rgb(35,39,65)");
     particlesJS("particles-js", {
         "particles": {
             "number": {
@@ -337,6 +337,5 @@ function styleSnow(){
             }
         },
         "retina_detect": true
-
     });
 };
