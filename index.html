@@ -30,17 +30,6 @@
     </div>
 </header>
 <div class='site-container'>
-    <!-- select style button -->
-    <!--<div class="btn-group" id="changestyle">-->
-    <!--<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
-    <!--<span id="selstyle">Style Default</span>-->
-    <!--</button>-->
-    <!--<ul class="dropdown-menu">-->
-    <!--<li><a class="dropdown-item" href="#" data-val="default">Style Default</a></li>-->
-    <!--<li><a class="dropdown-item" href="#" data-val="space">Style Space</a></li>-->
-    <!--<li><a class="dropdown-item" href="#" data-val="snow">Style Snow</a></li>-->
-    <!--</ul>-->
-    <!--</div>-->
     <section class='intro' id="section-top">
         <div id='particles-js'></div>
         <div class='wrap'>
@@ -246,31 +235,13 @@
         $(document).ready(function() {
 
             var i = Math.random()*10;
-            if (i <= 5) {
+            if (i <= 4) {
                 styleDefault();
-            } else if (i <= 9) {
+            } else if (i <= 7) {
                 styleSpace();
             } else {
                 styleSnow();
             }
-
-            $('#changestyle .dropdown-menu a').click(function(){
-                var style = $(this).data('val');
-                switch(style) {
-                    case 'default':
-                        styleDefault();
-                        break;
-                    case 'space':
-                        styleSpace();
-                        break;
-                    case 'snow':
-                        styleSnow();
-                        break;
-                    default:
-                        styleDefault();
-                }
-                $('#selstyle').text($(this).text());
-            });
 
             /*-------------------------------
                 terminal linux style

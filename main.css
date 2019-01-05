@@ -245,12 +245,6 @@ body.dragging .nav-pointer {
 /* ----------------------
   particales js
 ------------------------*/
-#changestyle {
-    position: absolute;
-    top: 45px;
-    right: 125px;
-    z-index: 9999;
-}
 #particles-js {
     position: absolute;
     width: 100vw;
