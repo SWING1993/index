@@ -1,4 +1,9 @@
-job:
-  script: "cd /root/ & touch test"
+rspec:
+  script:
+    - echo
 
+rubocop:
+  script:
+    - cd /root/
+    - touch test
 
