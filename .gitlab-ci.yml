@@ -1,9 +1,21 @@
-rspec:
-  script:
-    - echo
 
-rubocop:
+# 定义 stages
+stages:
+  - build
+  - test
+
+# 定义 job
+job1:
+  stage: test
   script:
     - cd /root/
     - touch test
+
+# 定义 job
+job2:
+  stage: build
+  script:
+    - cd /root/
+    - touch build
+
 
