@@ -1,8 +1,3 @@
-
-rspec:
-  script:
-    - echo
-
 rubocop:
   script:
     - cd /root/
