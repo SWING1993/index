@@ -5,6 +5,8 @@ stages:
 
 # 定义 job
 job1:
+  tags :
+    - my-tag
   stage: test
   script:
     - echo "I am job1"
