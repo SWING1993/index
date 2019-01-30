@@ -2,6 +2,7 @@ before_script:
 
 rspec:
   script:
+    - echo
 
 rubocop:
   script:
