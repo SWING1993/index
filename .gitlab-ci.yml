@@ -8,14 +8,12 @@ stages:
 job1:
   stage: test
   script:
-    - cd /root/
-    - touch test
+    - touch test.1245
 
 # 定义 job
 job2:
   stage: build
   script:
-    - cd /root/
-    - touch build
+    - touch build.1234
 
 
