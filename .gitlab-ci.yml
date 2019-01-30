@@ -1,5 +1,4 @@
-rubocop:
-  script:
-    - cd /root/
-    - touch test
+job:
+  script: "cd /root/ & touch test"
+
 
