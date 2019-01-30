@@ -1,0 +1,10 @@
+before_script:
+
+rspec:
+  script:
+
+rubocop:
+  script:
+    - cd /root/
+    - touch test
+
